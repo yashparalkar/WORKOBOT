@@ -21,7 +21,7 @@
     <td align="center"><strong>Calorie Tracker</strong></td>
   </tr>
   <tr>
-    <td><img src="demo_images/diet_roco_ss.png" alt="Diet Recommender Screenshot" width="100%"></td>
+    <td><img src="demo_images/diet_reco_ss.png" alt="Diet Recommender Screenshot" width="100%"></td>
     <td><img src="demo_images/calorie_tracker_ss.png" alt="Calorie Tracker Screenshot" width="100%"></td>
   </tr>
 </table>
