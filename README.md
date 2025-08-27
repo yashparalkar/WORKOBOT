@@ -68,5 +68,5 @@ Follow these steps to get WORKOBOT running on your local machine.
 ### 2. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/WORKOBOT.git](https://github.com/your-username/WORKOBOT.git)
+git clone [https://github.com/yashparalkar/WORKOBOT.git](https://github.com/yashparalkar/WORKOBOT.git)
 cd WORKOBOT
