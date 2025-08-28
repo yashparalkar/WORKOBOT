@@ -65,7 +65,20 @@ Follow these steps to get WORKOBOT running on your local machine.
 * A running MySQL server instance.
 * A webcam connected to your computer.
 
-### 2. Clone the Repository
+### 2. AI Gym Trainer: Pose Estimation Logic
+
+The core of the AI Gym Trainer is its ability to understand and count exercises. This is achieved by analyzing the angles between key body joints (like elbows, hips, and knees) detected by MediaPipe.
+
+For each exercise, the application monitors the angle of specific joints. A repetition is counted when the angle passes certain thresholds, corresponding to the "up" and "down" phases of the movement. For example, a squat is counted when the knee angle goes from >160° (standing) to <90° (squatting) and back.
+
+The angle between three points (e.g., shoulder, elbow, wrist) is calculated using the vector dot product formula shown below:
+
+$$
+\theta = \arccos\left(\frac{\vec{BA} \cdot \vec{BC}}{\|\vec{BA}\| \|\vec{BC}\|}\right)
+$$
+
+
+### 3. Clone the Repository
 
 ```bash
 git clone [https://github.com/yashparalkar/WORKOBOT.git](https://github.com/yashparalkar/WORKOBOT.git)
