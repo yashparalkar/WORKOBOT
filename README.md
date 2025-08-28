@@ -69,7 +69,7 @@ Follow these steps to get WORKOBOT running on your local machine.
 
 The core of the AI Gym Trainer is its ability to understand and count exercises. This is achieved by analyzing the angles between key body joints (like elbows, hips, and knees) detected by MediaPipe.
 
-For each exercise, the application monitors the angle of specific joints. A repetition is counted when the angle passes certain thresholds, corresponding to the "up" and "down" phases of the movement. For example, a squat is counted when the knee angle goes from >160° (standing) to <90° (squatting) and back.
+For each exercise, the application monitors the angle of specific joints. A repetition is counted when the angle passes certain thresholds, corresponding to the "up" and "down" phases of the movement. For example, a squat is counted when the knee angle goes from >160° (standing) to <70° (squatting) and back.
 
 The angle between three points (e.g., shoulder, elbow, wrist) is calculated using the vector dot product formula shown below:
 
